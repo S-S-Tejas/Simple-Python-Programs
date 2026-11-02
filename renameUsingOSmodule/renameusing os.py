@@ -1,5 +1,5 @@
 import os
-def change_dir(direct = r'D:\Code With Harry\Python\images'):  
+def change_dir(direct = r'D:Python\images'):  
     os.chdir(direct)
     print(os.getcwd())
 while True:
